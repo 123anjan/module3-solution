@@ -1,0 +1,104 @@
+/* Custom styles */
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+}
+
+/* Navbar styling */
+.navbar-default {
+  background-color: #d3d3d3;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 0;
+  margin-bottom: 20px;
+  border-color: #000
+}
+.navbar-default .container-fluid {
+  background-color: #999999;
+}
+/* Force full color across inside containers and responsive collapse */
+.navbar-default .container-fluid,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-header {
+  background-color: #999999 !important;
+}
+.navbar-default .navbar-brand {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000;
+}
+
+/* Toggle button border styling */
+.navbar-default .navbar-toggle {
+  border: 2px solid #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+/* Mobile dropdown menu full width & background */
+#collapsable-nav {
+  background-color: #fff;
+  border-top: 2px solid #000;
+  padding: 0;
+}
+
+#nav-list {
+  margin: 0;
+}
+
+#nav-list li {
+  border-bottom: 1px solid #000;
+}
+
+#nav-list li:last-child {
+  border-bottom: none;
+}
+
+#nav-list li a {
+  color: #000;
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+
+#nav-list li a:hover {
+  background-color: #e7e7e7;
+}
+
+/* Page Title */
+h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Content Box Styling & Layout */
+.menu-box {
+  background-color: #999999;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  min-height: 700px;
+  position: relative;
+}
+
+.menu-box h3 {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* Back to Top link placement */
+.back-to-top {
+  margin-top: 20px;
+}
+
+.back-to-top a {
+  color: #0000ee;
+  text-decoration: underline;
+}
